@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 700px;
+    min-height: 500px;
+    background-color: powderblue;
+    border-radius: 20px;
+    padding: 15px;
+    display: block;
+    box-shadow:2px 2px 5px black;
+}
+
+#item{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    outline: 0 ;
+    font-weight: lighter;
+    /* color: rgb(182, 137, 137); */
+    /* border: 0; */
+}
+
+#to-do-list{
+
+    margin-top: 20px;
+    /* margin-bottom: 15px; */
+    /* padding-bottom:15px ; */
+    font-size:20px ;
+    list-style-type: none;
+}
+
+#to-do-list li{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 30px;
+    text-align: justify;
+    background-color: #2c3e50;
+    /* padding: 10px; */
+    color: aliceblue;
+    margin-top: 10px;
+    user-select: none;
+}
+
+i{
+    position: absolute;
+    right:10px;
+    top: 10px;
+    padding-left: 25px;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: rgb(138, 138, 138) !important; 
+    color: black !important;
+    user-select: none;
+}
+#cool{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+    color: rgb(67, 85, 223);
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: linear-gradient(60deg,#a43df3, #3fd6f0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: rgb(146, 196, 238); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row1{
+    /* border: 2px yellow solid; */
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2{
+    /* border: 2px yellow solid; */
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    color: white;
+}
+#temp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#clouds{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row2 section img{
+    display: block;
+    height: 150px;
+}
+
+form #search{
+    border-radius: 100px;
+    width: 120%;
+    height: 80%;
+    padding: 10px;
+    font-size: 25px;
+    outline: none;
+}
+
+h1,h2{
+    color: black;
+}
+ul{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+li{
+    font-size: 30px;
+    font-family:cursive;
+    padding:10px;
+    list-style: none;
+}
+
+#deets{
+    display: flex;
+}
+
+#flag img{
+    height: 2em;
+    padding-top: 2px;
+}
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  /* padding: 2em; */
+  color: rgba(255,255,255,.75);
+  /* font-family: 'Anonymous Pro', monospace;   */
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 0%;
+    left: 1%; 
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color: rgb(139, 4, 197);
+    opacity: 0.5;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    /* font-size: 180%; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 500ms 1 normal both,
+             blinkTextCursor 1s steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.country{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ae64e6;
+    display: flex;
+
+}
